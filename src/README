@@ -1,0 +1,15 @@
+para compilar o servidor:
+$ make
+  para rodá-lo:
+  $ ./server 12345
+
+para compilar o cliente:
+$ make -f Makefile.client
+  para rodá-lo:
+  $ ./client 127.0.0.1 12345
+
+para compilar o servidor web, na pasta view
+  $ cd view && make
+  para rodá-lo:
+  $ ./serv 8000
+
